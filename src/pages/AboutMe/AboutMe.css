@@ -14,10 +14,6 @@
     background-color: #202A25;
 }
 
-.about-me {
-    background-color: var(--MYGREY);
-}
-
 .about-me h2, .about-me h3 {
     color: var(--MYORANGE);
     border-bottom: 3px solid #368F8B;
