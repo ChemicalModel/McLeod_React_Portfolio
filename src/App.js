@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import Header from "./components/Header";
-import AboutMe from "./pages/AboutMe";
-import Projects from "./components/Project";
+import AboutMe from "./pages/AboutMe/AboutMe";
+// import Projects from "./components/Project";
 import Footer from "./components/Footer";
-import Resume from "./pages/Resume";
-import Contact from "./pages/Contact";
-import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume/Resume";
+import Contact from "./pages/Contact/Contact";
+import Portfolio from "./pages/Portfolio/Portfolio";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 
 function App() {
@@ -25,7 +25,6 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<AboutMe />} />
-          <Route path="/project" element={<Projects />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/portfolio" element={<Portfolio />} />
