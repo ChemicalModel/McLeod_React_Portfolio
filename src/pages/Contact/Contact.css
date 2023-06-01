@@ -1,0 +1,38 @@
+/* Brand Colors*/
+
+:root {
+    --MYORANGE: #F28F3B;
+    --MYGREEN: #ACF39D;
+    --MYBLUE: #368F8B;
+    --MYBLACK: #1B2021;
+    --MYGREY: #202A25;
+}
+
+* {
+    /* outline: 1px solid red;
+    border: 1px solid green; */
+    background-color: #202A25;
+}
+
+.contact-info {
+    margin: 10% 25%;
+    border: 1px solid var(--MYBLUE);
+}
+
+.contact-info h2, .contact-info h3 {
+    color: var(--MYORANGE);
+    border-bottom: 3px solid var(--MYBLUE);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-info p, .contact-info a {
+    color: var(--MYGREEN);
+    list-style-type: square;
+    font-size: large;
+    margin: 5%;
+    border: 3px;
+    display: flex;
+    justify-content: center;
+}
