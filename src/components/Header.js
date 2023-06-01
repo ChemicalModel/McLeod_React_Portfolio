@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Navigation from './Navigation';
+import './Header.css'
 
 const Header = () => {
   const [activeSection, setActiveSection] = useState('about');
@@ -9,7 +10,7 @@ const Header = () => {
   };
 
   return (
-    <header>
+    <header class='mainHeader'>
       <h1>Michael McLeod</h1>
       <Navigation activeSection={activeSection} handleNavigation={handleNavigation} />
     </header>
