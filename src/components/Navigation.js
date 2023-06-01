@@ -8,8 +8,8 @@ const Navigation = ({ activeSection, handleNavigation }) => {
         <li>
           <Link
             to="/"
-            className={activeSection === 'about' ? 'active' : ''}
-            onClick={() => handleNavigation('about')}
+            className={activeSection === null ? 'active' : ''}
+            onClick={() => handleNavigation(null)}
           >
             About Me
           </Link>
