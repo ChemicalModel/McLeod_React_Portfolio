@@ -1,0 +1,55 @@
+/* Brand Colors*/
+
+:root {
+    --MYORANGE: #F28F3B;
+    --MYGREEN: #ACF39D;
+    --MYBLUE: #368F8B;
+    --MYBLACK: #1B2021;
+    --MYGREY: #202A25;
+}
+
+.mainHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--MYBLACK);
+    padding: 10px;
+}
+
+.mainHeader,
+.mainHeader ul,
+.mainHeader li,
+.mainHeader a {
+    background-color: var(--MYBLACK);
+}
+
+.mainHeader h1 {
+    color: var(--MYORANGE);
+    background-color: var(--MYBLUE);
+    border-bottom: 3px solid #368F8B;
+    color: var(--MYORANGE);
+    font-size: xx-large;
+    margin: 0;
+    padding-left: 3%;
+    padding-right: 1%;
+}
+
+.mainHeader ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mainHeader ul li {
+    margin-left: 10px;
+}
+
+.mainHeader ul li a {
+    color: var(--MYORANGE);
+    text-decoration: none;
+    font-size: x-large;
+    border-bottom: 3px solid var(--MYBLUE) ;
+}
